@@ -1,40 +1,66 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-<title>Module 2</title>
-<link rel="stylesheet" href="css/style.css">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food, LLC - Home</title>
 
+    <!-- Bootstrap -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+  </head>
   <body>
-    <h1>Our Menu</h1>
-<div class="row">
-  <div class="col-lg-4 col-md-6">
-	<div id="content">
-		<p id="chicken">Chicken</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		</p>
-	</div>
-  </div>
-  <div class="col-lg-4 col-md-6">
-	<div id="content">
-		<p id="beef">Beef</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-		</p>
-	</div>
-  </div>
-  <div class="col-lg-4 col-md-12">
-	<div id="content">
-		<p id="sushi">Sushi</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-		</p>
-	</div>
-  </div>
-</div>
-    <footer>
-    </footer>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                   
+                    <a class="navbar-brand" href="#"><strong>Food, LLC</strong></a>
+                    
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav visible-xs">
+                            <li class="active"><a href="#">Chicken</a></li>
+                            <li><a href="#">Beef</a></li>
+                            <li><a href="#">Sushi</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+    </header>
+    <div id="main-content" class="container">
+        <div class="row home-title">
+            <h1 class="text-center">Our Menu</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 img-container">
+            <div id="chicken-image">
+                <div class="img-header"><a href="#">Chicken</a></div>
+            </div>
+                        
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 img-container">
+            <div id="beef-image">
+            <div class="img-header"><a href="#">Beef</a></div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-12 col-xs-12 img-container">
+            <div id="sushi-image">
+                <div class="img-header"><a href="#">Sushi</a></div>
+            </div>
+        </div>    
+        </div>
+        
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
   </body>
 </html>
